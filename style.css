@@ -517,7 +517,7 @@ footer p{
 /*-------- SECTION 2---------  */
 
     #section2 {
-        width: 95%;
+        width: 100%;
         margin: 5% auto;
         margin-bottom: 5%;
     } 
@@ -533,14 +533,16 @@ footer p{
 
     .row2-col-1{
         flex-basis: 50%;
-        text-align: left;
+        text-align: none;
     }
     .row2-col-2{
         flex-basis: 30%;
         margin:0;
+        text-align: none;
+        margin-right: 0;
     }
     .background-circle1{
-        width: 90%;
+        width: 100%;
         margin: 0;
     }
     
@@ -555,23 +557,28 @@ footer p{
     }
     
     .Service-desc {
-        width: 70%;
+        width: 80%;
         height: 350px;
+    }
+    .Service-desc .arrow a{
+        padding: 10px;
     }
 
     /*-------- SECTION 4---------  */
     #section4 {
-        width: 95%;
+        width: 100%;
         margin: 20% auto;
     } 
 
     #section4 .row2-col-1{
         flex-basis: 50%;
-        text-align: left;
+        text-align: none;
     }
     #section4 .row2-col-2{
         flex-basis: 30%;
         margin:0;
+        text-align: none;
+        margin-left: 0;
     }
     #section4 .background-circle1{
         width: 90%;
@@ -584,17 +591,19 @@ footer p{
 
     /*-------- SECTION 5---------  */
     #section5 {
-        width: 95%;
+        width: 100%;
         margin: 20% auto;
     } 
 
     #section5 .row2-col-1{
         flex-basis: 50%;
-        text-align: left;
+        text-align: none;
     }
     #section5 .row2-col-2{
         flex-basis: 30%;
         margin:0;
+        text-align: none;
+        margin-right: 0;
     }
     #section5 .background-circle1{
         width: 90%;
@@ -611,7 +620,7 @@ footer p{
         margin: auto;
     }
     .brand-ptn-container h2{
-        font-size: 14px;
+        font-size: 20px;
     }
     .brand-ptn-container{
         width: 100%;
@@ -619,5 +628,8 @@ footer p{
     footer{
         margin: 2%;
         width: 95%;
+    }
+    .center-div-left .center-div-right{
+        margin: 10px;
     }
 }
