@@ -592,7 +592,7 @@ footer p{
         width: 100%;
     }
     #section4 .row2-col-2-heading {
-        padding: 5px;
+        text-align: right;
     }
 
     /*-------- SECTION 5---------  */
@@ -620,7 +620,7 @@ footer p{
         width: 100%;
     }
     #section5 .row2-col-2-heading {
-        text-align: right;
+        text-align: none;
     }
 
     .brand-ptn img{
